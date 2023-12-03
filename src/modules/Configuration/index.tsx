@@ -67,18 +67,6 @@ const Configuration: FC<ConfigurationProps> = ({
       >
         <Panel header={i18n.config_general} key="1">
           <div className="mb-6">
-            <div className="mb-2">{i18n.config_password}</div>
-            <Input
-              className="w-full"
-              type="password"
-              autoComplete="off"
-              value={configs.password}
-              onChange={(e) =>
-                updateConfigsAndStorages({ password: e.target.value })
-              }
-            />
-          </div>
-          <div className="mb-6">
             <div className="mb-2">OpenAI Api Key:</div>
             <Input
               className="w-full"
