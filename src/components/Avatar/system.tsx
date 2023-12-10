@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 interface SystemAvatarProps {
-  role?: 'DALL-E' | 'Midjourney' | 'Replicate';
+  role?: 'dall-e-3' | 'Midjourney' | 'Replicate';
 }
 
 const SystemAvatar: FC<

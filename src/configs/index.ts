@@ -20,14 +20,14 @@ export type SupportedModel = (typeof supportedModels)[number];
 export const defaultModel: SupportedModel = 'gpt-3.5-turbo';
 
 export const supportedImageModels = [
-  'DALL-E',
+  'dall-e-3',
   'Midjourney',
   'Replicate',
 ] as const;
 
 export type SupportedImageModels = (typeof supportedImageModels)[number];
 
-export const defaultImageModel: SupportedImageModels = 'DALL-E';
+export const defaultImageModel: SupportedImageModels = 'dall-e-3';
 
 // From https://platform.openai.com/docs/api-reference/images/create
 export const supportedImgSizes = ['256x256', '512x512', '1024x1024'] as const;

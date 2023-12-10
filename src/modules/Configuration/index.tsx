@@ -191,7 +191,7 @@ const Configuration: FC<ConfigurationProps> = ({
               }
             />
           </div>
-          {configs.imageModel === 'DALL-E' ||
+          {configs.imageModel === 'dall-e-3' ||
           configs.imageModel === 'Replicate' ? (
             <div className="flex items-center justify-between mb-6">
               <div>{i18n.config_images_size}</div>
@@ -208,7 +208,7 @@ const Configuration: FC<ConfigurationProps> = ({
               />
             </div>
           ) : null}
-          {configs.imageModel === 'DALL-E' ? (
+          {configs.imageModel === 'dall-e-3' ? (
             <div>
               <div className="mb-2">{i18n.config_images_count}</div>
               <Slider
