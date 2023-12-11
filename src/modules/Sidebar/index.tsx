@@ -50,24 +50,6 @@ const Sidebar: FC<{
         </div>
       ),
     },
-    {
-      key: '2',
-      label: (
-        <div onClick={() => onAdd('image')}>
-          <i className="ri-image-line align-bottom mr-1" />
-          {i18n.action_add_image}
-        </div>
-      ),
-    },
-    {
-      key: '3',
-      label: (
-        <div onClick={() => setVisible(true)}>
-          <i className="ri-chat-upload-line align-bottom mr-1" />
-          {i18n.action_import}
-        </div>
-      ),
-    },
   ];
 
   const filterData = data.filter(
